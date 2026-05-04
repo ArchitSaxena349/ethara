@@ -4,8 +4,8 @@ Ethara TaskFlow is a focused full-stack task and project tracker built for the a
 
 LIVE DEPLOYMENT
 
-- App: https://ethara-production-83e5.up.railway.app/
-- API health check: https://ethara-production-83e5.up.railway.app/api/health
+- App: https://ethara-production-ffe9.up.railway.app/
+- API health check: https://ethara-production-ffe9.up.railway.app/api/health
 
 FEATURES
 
@@ -40,7 +40,7 @@ LOCAL SETUP
    PORT=5000
    MONGODB_URI=your_mongodb_connection_string
    JWT_SECRET=your_long_random_secret
-   CLIENT_ORIGIN=http://localhost:5173,https://ethara-production-83e5.up.railway.app
+   CLIENT_ORIGIN=http://localhost:5173,https://ethara-production-ffe9.up.railway.app
    NODE_ENV=development
 
 4. Optional: seed demo data:
@@ -111,14 +111,14 @@ RAILWAY DEPLOYMENT
 
    MONGODB_URI=your_mongodb_connection_string
    JWT_SECRET=your_long_random_secret
-   CLIENT_ORIGIN=https://ethara-production-83e5.up.railway.app
+   CLIENT_ORIGIN=https://ethara-production-ffe9.up.railway.app
    NODE_ENV=production
 
 4. Do not manually add PORT on Railway. Railway provides PORT automatically.
 5. Build command: npm install && npm run build
 6. Start command: npm start
 
-Live deployment: https://ethara-production-83e5.up.railway.app/
+Live deployment: https://ethara-production-ffe9.up.railway.app/
 
 DEMO VIDEO CHECKLIST
 

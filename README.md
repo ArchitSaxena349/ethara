@@ -4,8 +4,8 @@ Ethara TaskFlow is a focused full-stack task and project tracker for the assignm
 
 ## Live Deployment
 
-- App: [https://ethara-production-83e5.up.railway.app/](https://ethara-production-83e5.up.railway.app/)
-- API health check: [https://ethara-production-83e5.up.railway.app/api/health](https://ethara-production-83e5.up.railway.app/api/health)
+- App: [https://ethara-production-ffe9.up.railway.app/](https://ethara-production-ffe9.up.railway.app/)
+- API health check: [https://ethara-production-ffe9.up.railway.app/api/health](https://ethara-production-ffe9.up.railway.app/api/health)
 
 ## Features
 
@@ -101,7 +101,7 @@ Health:
 3. Add environment variables:
    - `MONGODB_URI`
    - `JWT_SECRET`
-   - `CLIENT_ORIGIN=https://ethara-production-83e5.up.railway.app`
+   - `CLIENT_ORIGIN=https://ethara-production-ffe9.up.railway.app`
    - `NODE_ENV=production`
    - Do not manually add `PORT`; Railway provides it automatically.
 4. Use build command:
