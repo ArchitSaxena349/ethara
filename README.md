@@ -40,6 +40,16 @@ npm install
 copy .env.example .env
 ```
 
+Required environment variables:
+
+```bash
+PORT=5000
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_long_random_secret
+CLIENT_ORIGIN=http://localhost:5173,https://ethara-production-ffe9.up.railway.app
+NODE_ENV=development
+```
+
 3. Optional demo seed:
 
 ```bash
@@ -93,3 +103,20 @@ Users:
 Health:
 
 - `GET /api/health`
+
+## Role-Based Access
+
+Admin:
+
+- Create projects
+- Add members to projects
+- Create tasks
+- Assign tasks to project members
+- View dashboard summaries
+
+Member:
+
+- View assigned projects
+- View assigned tasks
+- Update task status
+- View personal dashboard
