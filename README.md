@@ -4,8 +4,8 @@ Ethara TaskFlow is a focused full-stack task and project tracker for the assignm
 
 ## Live Deployment
 
-- App: [https://ethara-production-ffe9.up.railway.app/](https://ethara-production-ffe9.up.railway.app/)
-- API health check: [https://ethara-production-ffe9.up.railway.app/api/health](https://ethara-production-ffe9.up.railway.app/api/health)
+- App: [https://ethara-production-b39b.up.railway.app](https://ethara-production-b39b.up.railway.app)
+- API health check: [https://ethara-production-b39b.up.railway.app/api/health](https://ethara-production-b39b.up.railway.app/api/health)
 
 ## Features
 
